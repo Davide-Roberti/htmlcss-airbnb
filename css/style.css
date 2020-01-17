@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: grey;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.praga {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn-image.travelandleisure.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F1600x1000%2Fpublic%2F1488557674%2Fold-town-square-prague-czech-republic-PRAGUE0317.jpg%3Fitok%3DxfLvhxtk&f=1&nofb=1);
+}
+
+.timbuctu {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F4.bp.blogspot.com%2F-l7d4b8lGId8%2FTfDKBfJAZaI%2FAAAAAAAAAVg%2FvMN6YmPe8YI%2Fs1600%2Ftimbuktu2.jpg&f=1&nofb=1);
+}
+
+.kyoto {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fjohanfourie.files.wordpress.com%2F2015%2F07%2Fkyoto.jpeg&f=1&nofb=1);
+}
+
+span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
